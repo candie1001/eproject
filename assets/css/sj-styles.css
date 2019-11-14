@@ -1,0 +1,98 @@
+/* ------------------------------------------------------- */
+/* Sj Basic styles */
+/* ------------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+
+:root {
+  --primary-color: #424242;
+  --primary-color-light: #6d6d6d;
+  --primary-color-dark: #1b1b1b;
+  --secondary-color: #b2ff59;
+  --secondary-color-light: #e7ff8c;
+  --secondary-color-dark: #7ecb20;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: var(--secondary-color-dark);
+  font-weight: bold;
+  font-family: "Playfair Display", "Courier New", Courier, monospace;
+  text-transform: capitalize;
+}
+
+.sj-text-primary {
+  color: var(--primary-color) !important;
+}
+.sj-text-primary-light {
+  color: var(--primary-color-light) !important;
+}
+.sj-text-primary-dark {
+  color: var(--primary-color-dark) !important;
+}
+.sj-text-secondary {
+  color: var(--secondary-color) !important;
+}
+.sj-text-secondary-light {
+  color: var(--secondary-color-light) !important;
+}
+.sj-text-secondary-dark {
+  color: var(--secondary-color-dark) !important;
+}
+.sj-bg-primary {
+  background-color: var(--primary-color) !important;
+}
+.sj-bg-primary-light {
+  background-color: var(--primary-color-light) !important;
+}
+.sj-bg-primary-dark {
+  background-color: var(--primary-color-dark) !important;
+}
+.sj-bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+.sj-bg-secondary-light {
+  background-color: var(--secondary-color-light) !important;
+}
+.sj-bg-secondary-dark {
+  background-color: var(--secondary-color-dark) !important;
+}
+
+.band-logo {
+  height: 10rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (max-width: 736px) {
+  .band-logo {
+    height: 8rem;
+  }
+}
+
+/* --------------------------- */
+/* Icon size                   */
+/* --------------------------- */
+
+.icon-x1 {
+  font-size: 1.5rem !important;
+}
+
+.icon-x2 {
+  font-size: 2rem !important;
+}
+
+/* --------------------------- */
+/* Carouse size                */
+/* --------------------------- */
+@media screen and (min-width: 768px) {
+  #carouselExampleIndicators .carousel-inner {
+    max-height: calc(100vh - calc(56px + 76px));
+  }
+}
