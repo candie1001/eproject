@@ -51,11 +51,6 @@ a {
     margin-bottom: 15px;
   }
 
-  .fl_left,
-  .fl_right {
-    display: block;
-    float: none;
-  }
 }
 
 @media screen and (max-width: 450px) {
@@ -74,9 +69,7 @@ a {
     font-weight: 20px;
   }
 
-  div.fl_left {
-    display: none;
-  }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -331,26 +324,48 @@ footer {
 /* product detail */
 /* ------------------------------------------------------- */
 .bg-Specifications_manuals,
-.bg-product_detail {
+.bg-product_detail,
+.bg-contact {
   background-color: #fff;
   border-radius: 15px;
 }
+
 /* ----------------------------------------------------- */
 /* cart */
-.thumbnai-img{
-  
+.responsive {
+  width: 100%;
+  height: auto;
 }
+.thumbnail-img{
+  width: 120px;
+}
+
+/* contact us */
 /* map */
-.map-container-2{
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-  }
-  .map-container-2 iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
-  }
+.map-container-2 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-2 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
