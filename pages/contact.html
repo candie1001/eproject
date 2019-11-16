@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="../assets/css/util.css">
 </head>
 
-<body style="background-color: rgb(240, 235, 235);">
+<body>
     <header>
         <!-- topbar -->
         <div class="container-fluid sj-bg-primary-dark text-light">
@@ -36,7 +36,7 @@
                         <ul>
                             <li><a class="text-light" href="./pages/Login.html">Login</a></li>
                             <li><a class="text-light" href="./pages/Sign_Up.html">Register</a></li>
-                            <li><a class="text-light" href="#"><i
+                            <li><a class="text-light" href="./pages/cart.html"><i
                                         class="fa fa-cart-arrow-down sj-text-secondary icon-x1"></i>View
                                     Cart</a>
                             </li>
@@ -45,8 +45,7 @@
                 </div>
             </div>
         </div>
-        <!-- navigation bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow bg-white rounded">
             <div class="container">
                 <a class="navbar-brand" href="index.html"> <img src="../assets/img/logo2.png" alt=""> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -63,6 +62,119 @@
                                 Category
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="pages/products-page.html">Fridges</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Freezers</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Health</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Beauty</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Heating </a>
+                                <a class="dropdown-item" href="pages/products-page.html">Cooling</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Laundry Appliances</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Small Appliances</a>
+                                <a class="dropdown-item" href="pages/products-page.html">TV</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Audio</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Electronics</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Trademarks
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="pages/products-page.html">Amana</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Jenn air</a>
+                                <a class="dropdown-item" href="pages/products-page.html">LG</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Samsung</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 ml-md-4">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--  -->
+    <main role="main">
+        <div class="container">
+            <div class="row bg-contact">
+                <div class="col-12 col-md-6 border-right">
+                    <h3 class="py-3 pl-2 mt-5 sj-bg-primary-dark">SEND AN MESSAGE</h3>
+                    <div class="row px-3 pt-3">
+                        <div class="wrap-input100 validate-input" data-validate="Name is required">
+                            <span class="label-input100">Full Name</span>
+                            <input class="input100" type="text" name="name" placeholder="Name...">
+                            <span class="focus-input100"></span>
+                        </div>
+                    </div>
+                    <div class="row px-3">
+                        <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                            <span class="label-input100">Email</span>
+                            <input class="input100 " type="text" name="email" placeholder="Email addess...">
+                            <span class="focus-input100"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="text-center" style="width: 100%;">
+                            <textarea name="" id="" class="shadow px-3 mb-2 bg-white rounded border" cols="30" rows="5"
+                                placeholder="Message" style="width: 90%;"></textarea>
+                        </div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-12 text-center">
+                            <a href="mailto:someone@example.com?Subject=Hello%20again" class="btn btn-dark"
+                                target="_top">Send Mail</a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="py-3 pl-2 mt-5 sj-bg-primary-dark">HOW TO SEACH US</h3>
+                    <div class="row px-3">
+                        <p><i class="fa fa-map-marker icon-x1 my-2" aria-hidden="true"></i> Address: 1
+                            Lý Tự Trọng, An Lạc, Ninh Kiều, Cần Thơ</p>
+                    </div>
+                    <div class="row px-3">
+                        <p><i class="fa fa-phone icon-x1 my-2" aria-hidden="true"></i> Phone Number:
+                            7303317459</p>
+                    </div>
+                    <div class="row px-3">
+                        <p><i class="fa fa-envelope icon-x1 my-2"></i> Email: LaImperial@gmail.com </p>
+                    </div>
+                    <div class="row px-3 py-5">
+                        <div class="col-12 map-resposive">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.8530462857625!2d105.77889112910862!3d10.034115520593113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0881fa2f86433%3A0xee52427c850bbc0d!2zMSBMw70gVOG7sSBUcuG7jW5nLCBUw6JuIEFuLCBOaW5oIEtp4buBdSwgQ-G6p24gVGjGoSwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1573808348198!5m2!1sen!2s"
+                                width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="">
+                            </iframe>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer class="sj-bg-primary-dark">
+            <div class="container">
+                <div class="row">
+                    <!-- footer menu -->
+                    <div class="col-12 col-md-2 my-5">
+                        <a href="" class="text-light ">Home</a>
+                        <hr class="border-bottom border-success">
+                        <!-- ================== -->
+                        <div class="dropup">
+                            <a class="dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Category
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Fridges</a>
                                 <a class="dropdown-item" href="#">Freezers</a>
                                 <a class="dropdown-item" href="#">Health</a>
@@ -75,98 +187,57 @@
                                 <a class="dropdown-item" href="#">Audio</a>
                                 <a class="dropdown-item" href="#">Electronics</a>
                             </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        </div>
+                        <hr class="border-bottom border-success">
+                        <!-- ================== -->
+                        <div class="dropup">
+                            <a class="dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Trademarks
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Amana</a>
-                                <a class="dropdown-item" href="#">Jenn air</a>
-                                <a class="dropdown-item" href="#">LG</a>
-                                <a class="dropdown-item" href="#">Samsung</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Amana</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Jenn air</a>
+                                <a class="dropdown-item" href="pages/products-page.html">LG</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Samsung</a>
                             </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0 ml-md-4">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <a href="mailto:ntnhona18156@cusc.ctu.edu.vn?subject=Feedback"></a>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!--  -->
-    <main role="main">
-        <div class="container my-3">
-            <div class="row bg-contact">
-                <div class="col-12 col-md-6">
-                    <h3 class="my-3">SEND AN MESSAGE</h3>
-                    <div class="wrap-input100 validate-input" data-validate="Name is required">
-                        <span class="label-input100">Full Name</span>
-                        <input class="input100" type="text" name="name" placeholder="Name...">
-                        <span class="focus-input100"></span>
-                    </div>
-
-                    <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                        <span class="label-input100">Email</span>
-                        <input class="input100 " type="text" name="email" placeholder="Email addess...">
-                        <span class="focus-input100"></span>
-                    </div>
-                    <textarea name="" id="" class="shadow p-3 mb-2 bg-white rounded border" cols="30" rows="10"
-                        placeholder="Message" style="width: 100%;"></textarea>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-success mb-3 text-center">Submit</button>
-                    </div>
-
-                </div>
-                <div class="col-12 col-md-6">
-                    <h3 class="my-3">HOW TO SEACH US</h3>
-                    <div class="row my-3">
-                        <div class="col-12">
-                            <p><i class="fa fa-map-marker icon-x1 my-2" aria-hidden="true"></i> Address: 1
-                                Lý Tự Trọng, An Lạc, Ninh Kiều, Cần Thơ</p>
-                            <p><i class="fa fa-phone icon-x1 my-2" aria-hidden="true"></i> Phone Number:
-                                7303317459</p>
-                            <p><i class="fa fa-envelope icon-x1 my-2"></i> Email: LaImperial@gmail.com </p>
                         </div>
-                        <div class="row">
-                            <div class="col-12 map-resposive">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.8530462857625!2d105.77889112910862!3d10.034115520593113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0881fa2f86433%3A0xee52427c850bbc0d!2zMSBMw70gVOG7sSBUcuG7jW5nLCBUw6JuIEFuLCBOaW5oIEtp4buBdSwgQ-G6p24gVGjGoSwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1573808348198!5m2!1sen!2s"
-                                    width="100%" height="auto" frameborder="0" style="border:0;"
-                                    allowfullscreen="">
-                                </iframe>
-                            </div>
 
+                    </div>
+                    <!-- contact us -->
+                    <div class="col-12 col-md-5">
+                        <h4 class="my-3 text-center">Contact Us</h4>
+                        <hr class="border-bottom border-success">
+                        <p class="text-light"><i class="fa fa-map-marker sj-text-secondary icon-x1"
+                                aria-hidden="true"></i> Số 1 Lý Tự
+                            Trọng, P.An Lạc, Q.Ninh Kiều, TP.Cần Thơ
+                        </p>
+                        <p><i class="fa fa-envelope sj-text-secondary icon-x1"></i> <a class="text-light"
+                                href="">LaImperial@gmail.com</a>
+                        </p>
+                        <p><i class="fa fa-phone sj-text-secondary icon-x1"></i> <a class="text-light" href="">+00
+                                (123)
+                                456 7890</a></p>
+                        <p class="text-center footer-icons"><a class="text-light" href="#"><i
+                                    class="fa fa-facebook-square text-light"></i></a>
+                            <a class="text-light" href="#"><i class="fa fa-twitter text-light"></i></a>
+                            <a class="text-light" href="#"><i class="fa fa-google"></i></a>
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <div class="map-responsive mt-5 mb-3">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.8530462857625!2d105.77889112910862!3d10.034115520593113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0881fa2f86433%3A0xee52427c850bbc0d!2zMSBMw70gVOG7sSBUcuG7jW5nLCBUw6JuIEFuLCBOaW5oIEtp4buBdSwgQ-G6p24gVGjGoSwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1573808348198!5m2!1sen!2s"
+                                width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="">
+                            </iframe>
                         </div>
+                    </div>
+                    <div class="col-12">
+
                     </div>
                 </div>
             </div>
-            <footer class=" sj-bg-primary-dark pb-5">
-                <div class="jumbotron text-center sj-bg-primary">
-                    <h1 class="text-capitalize">Connect With Us</h1>
-                    <p class="text-break">Share your decorating tips, find renovation inspiration and earn rewards by
-                        connecting with us!</p>
-                    <h1>
-                        <a href="#"><i class="fab fa-facebook-square text-light"></i></a>
-                        <a href="#"><i class="fab fa-instagram text-light"></i></a>
-                        <a href="#"><i class="fab fa-twitter text-light"></i></a>
-                    </h1>
-                </div>
-                <!--  -->
-                <div class="text-center">
-                    <h3 class="sj-text-secondary-dark">Contact Us</h3>
-                    <span>Address: 1 Lý Tự Trọng, An Lạc, Ninh Kiều, Cần Thơ</span><br>
-                    <span>Email: LaImperial@gmail.com</span><br>
-                    <span>Call us: 7303317459</span>
-                </div>
-            </footer>
-        </div>
+        </footer>
     </main>
     <!-- ------------------------------------------------------- -->
     <!--  -->
