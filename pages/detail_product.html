@@ -13,10 +13,10 @@
     <!-- ---------------------------------------- -->
     <link rel="stylesheet" href="../assets/css/sj-styles.css">
     <!-- ---------------------------------------- -->
-    <link rel="stylesheet" href="../vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../vendor/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
-<body style="background-color: rgb(240, 235, 235);">
+<body>
     <header>
         <!-- topbar -->
         <div class="container-fluid sj-bg-primary-dark text-light">
@@ -32,7 +32,7 @@
                         <ul>
                             <li><a class="text-light" href="./pages/Login.html">Login</a></li>
                             <li><a class="text-light" href="./pages/Sign_Up.html">Register</a></li>
-                            <li><a class="text-light" href="#"><i
+                            <li><a class="text-light" href="./pages/cart.html"><i
                                         class="fa fa-cart-arrow-down sj-text-secondary icon-x1"></i>View
                                     Cart</a>
                             </li>
@@ -41,9 +41,9 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow bg-white rounded">
             <div class="container">
-                <a class="navbar-brand" href="index.html"> <img src="assets/img/logo2.png" alt=""> </a>
+                <a class="navbar-brand" href="index.html"> <img src="../assets/img/logo2.png" alt=""> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -54,6 +54,188 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Category
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="pages/products-page.html">Fridges</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Freezers</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Health</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Beauty</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Heating </a>
+                                <a class="dropdown-item" href="pages/products-page.html">Cooling</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Laundry Appliances</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Small Appliances</a>
+                                <a class="dropdown-item" href="pages/products-page.html">TV</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Audio</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Electronics</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Trademarks
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="pages/products-page.html">Amana</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Jenn air</a>
+                                <a class="dropdown-item" href="pages/products-page.html">LG</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Samsung</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0 ml-md-4">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--  -->
+    <main role="main">
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="container my-4">
+                    <div class="row my-3">
+                        <div class="col-sm-12 col-md-5">
+                            <img src="../assets/img/products/tv1.jpg" class="img-thumbnail shadow"
+                                alt="Responsive image">
+                        </div>
+                        <div class="col-sm-12 col-md-7">
+                            <div class="card shadow">
+                                <h1 class="card-header bg-dark text-center">Product Name</h1>
+                                <div class="card-body">
+                                    <p class="card-text"> This exceptional looking 519L French door refrigerator from
+                                        Fisher & Paykel offers
+                                        huge
+                                        family-sized capacity and a seamless design that will integrate well into your
+                                        kitchen
+                                        cabinetry. It’s finished in quality stainless steel with concealed hinges which
+                                        matches well
+                                        your other kitchen appliances. Thanks to the long brushed metal handles you will
+                                        be
+                                        able to
+                                        access all of your favourite items effortlessly. The ActiveSmart™ system adjusts
+                                        temperature, airflow and humidity based on your lifestyle to keep cool air
+                                        inside
+                                        and food
+                                        fresh.</p>
+                                    <hr class="border-bottom border-success">
+                                    <h3 class="text-right">Price: $1,000</h3>
+                                    <div class="row">
+                                        <div class="col-12 text-right"><a href="#" class="btn btn-primary ">Add To
+                                                Cart</a></div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border-bottom border-success container">
+            <!-- ========================= -->
+            <div class="row my-5">
+                <div class="container">
+                    <div class="card shadow">
+                        <h2 class="card-header bg-dark">
+                            <i class="fa fa-list" aria-hidden="true"></i>
+                            Specifications & manuals
+                        </h2>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-md-6 bg-Specifications-manuals">
+                                    <div class="row border-right border-success">
+                                        <div class="col-12">
+                                            <h3>Key Specifications</h4>
+                                        </div>
+                                        <div class="col-6">
+                                            <p>Brand</p>
+                                            <p>Model Number</p>
+                                            <p>Finish Colour</p>
+                                            <p>Height (mm)</p>
+                                            <p>Width (mm)</p>
+                                            <p>Depth (mm)</p>
+                                            <p>Dispenser</p>
+                                            <p>Plumbing required</p>
+                                            <p>Notes</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p><a href="">Brand</a></p>
+                                            <p>RF522ADX5</p>
+                                            <p>Stainless Steel</p>
+                                            <p>1715 mm</p>
+                                            <p>790 mm</p>
+                                            <p>695 mm</p>
+                                            <p>No dispenser</p>
+                                            <p>No</p>
+                                            <p>Depth 730mm - including handle</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 bg-Specifications-manuals">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3>Warranty</h3>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <p>Manufacturer Warranty</p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p>2 Years</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <p>Warranty Note</p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p>2 year parts & labour warranty, plus additional 3 year sealed
+                                                        system
+                                                        parts
+                                                        warranty</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <p>Use</p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p>Not intended or designed for commercial use.</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 text-center"><a
+                                                        href="../assets/product_detail/ground_2.docx" download="">Clik
+                                                        here to down product detail</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <footer class="sj-bg-primary-dark">
+            <div class="container">
+                <div class="row">
+                    <!-- footer menu -->
+                    <div class="col-12 col-md-2 my-5">
+                        <a href="" class="text-light ">Home</a>
+                        <hr class="border-bottom border-success">
+                        <!-- ================== -->
+                        <div class="dropup">
+                            <a class="dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Category
                             </a>
@@ -70,161 +252,51 @@
                                 <a class="dropdown-item" href="#">Audio</a>
                                 <a class="dropdown-item" href="#">Electronics</a>
                             </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        </div>
+                        <hr class="border-bottom border-success">
+                        <!-- ================== -->
+                        <div class="dropup">
+                            <a class="dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Trademarks
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Amana</a>
-                                <a class="dropdown-item" href="#">Jenn air</a>
-                                <a class="dropdown-item" href="#">LG</a>
-                                <a class="dropdown-item" href="#">Samsung</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Amana</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Jenn air</a>
+                                <a class="dropdown-item" href="pages/products-page.html">LG</a>
+                                <a class="dropdown-item" href="pages/products-page.html">Samsung</a>
                             </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                    <form class="form-inline my-2 my-lg-0 ml-md-4">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!--  -->
-    <main role="main">
-        <div class="container">
-            <!--  -->
-            <div class="row my-3">
-                <div class="col-sm-12 col-md-5">
-                    <img src="../assets/img/products/tv1.jpg" class="img-thumbnail" alt="Responsive image">
-                </div>
-                <div class="col-sm-12 col-md-7 bg-product_detail">
-                    <div class="row">
-                        <div class="col-12">
-                            <h2 class="border-bottom border-success py-3 text-center text-dark">Product Name</h2>
                         </div>
+
                     </div>
-                    <div class="row">
-                        <div class="col-12 text-justify">
-                            This exceptional looking 519L French door refrigerator from Fisher & Paykel offers huge
-                            family-sized capacity and a seamless design that will integrate well into your kitchen
-                            cabinetry. It’s finished in quality stainless steel with concealed hinges which matches well
-                            your other kitchen appliances. Thanks to the long brushed metal handles you will be able to
-                            access all of your favourite items effortlessly. The ActiveSmart™ system adjusts
-                            temperature, airflow and humidity based on your lifestyle to keep cool air inside and food
-                            fresh.
-                        </div>
+                    <!-- contact us -->
+                    <div class="col-12 col-md-5">
+                        <h4 class="my-3 text-center">Contact Us</h4>
+                        <hr class="border-bottom border-success">
+                        <p class="text-light"><i class="fa fa-map-marker sj-text-secondary icon-x1"
+                                aria-hidden="true"></i> Số 1 Lý Tự
+                            Trọng, An Lạc, Ninh Kiều, Cần Thơ
+                        </p>
+                        <p><i class="fa fa-envelope sj-text-secondary icon-x1"></i> <a class="text-light"
+                                href="">LaImperial@gmail.com</a>
+                        </p>
+                        <p><i class="fa fa-phone sj-text-secondary icon-x1"></i> <a class="text-light" href="">+00 (123)
+                                456 7890</a></p>
+                        <p class="text-center footer-icons"><a class="text-light" href="#"><i
+                                    class="fa fa-facebook-square text-light"></i></a>
+                            <a class="text-light" href="#"><i class="fa fa-twitter text-light"></i></a>
+                            <a class="text-light" href="#"><i class="fa fa-google"></i></a>
+                        </p>
                     </div>
-                    <div class="row ">
-                        <div class="col-12">
-                            <h3 class="text-right">Price: $1,000</h3>
-                        </div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-12 text-right"> <button type="button" class="btn btn-primary mb-3"
-                                data-toggle="button" aria-pressed="false" autocomplete="off">
-                                Add To Cart
-                            </button></div>
-                    </div>
-                </div>
-            </div>
-            <!--  -->
-            <h2 class="my-3">
-                <i class="fa fa-list" aria-hidden="true"></i>
-                Specifications & manuals
-            </h2>
-            <div class="row bg-Specifications_manuals my-3">
-                <div class="col-12 col-md-6 bg-Specifications-manuals" >
-                    <div class="row border-right border-success">
-                        <div class="col-12">
-                            <h3>Key Specifications</h4>
-                        </div>
-                        <div class="col-6">
-                            <p>Brand</p>
-                            <p>Model Number</p>
-                            <p>Finish Colour</p>
-                            <p>Height (mm)</p>
-                            <p>Width (mm)</p>
-                            <p>Depth (mm)</p>
-                            <p>Dispenser</p>
-                            <p>Plumbing required</p>
-                            <p>Notes</p>
-                        </div>
-                        <div class="col-6">
-                            <p><a href="">Brand</a></p>
-                            <p>RF522ADX5</p>
-                            <p>Stainless Steel</p>
-                            <p>1715 mm</p>
-                            <p>790 mm</p>
-                            <p>695 mm</p>
-                            <p>No dispenser</p>
-                            <p>No</p>
-                            <p>Depth 730mm - including handle</p>
+                    <div class="col-12 col-md-5">
+                        <div class="map-responsive mt-5 mb-3">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1651.8530462857625!2d105.77889112910862!3d10.034115520593113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0881fa2f86433%3A0xee52427c850bbc0d!2zMSBMw70gVOG7sSBUcuG7jW5nLCBUw6JuIEFuLCBOaW5oIEtp4buBdSwgQ-G6p24gVGjGoSwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1573808348198!5m2!1sen!2s"
+                                width="100%" height="auto" frameborder="0" style="border:0;" allowfullscreen="">
+                            </iframe>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 bg-Specifications-manuals">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3>Warranty</h3>
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-6">
-                                    <p>Manufacturer Warranty</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>2 Years</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <p>Warranty Note</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>2 year parts & labour warranty, plus additional 3 year sealed system parts
-                                        warranty</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-6">
-                                    <p>Use</p>
-                                </div>
-                                <div class="col-6">
-                                    <p>Not intended or designed for commercial use.</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 text-center"><a href="../assets/product_detail/ground_2.docx" download="">Clik here to down product detail</a></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--  -->
-        <footer class=" sj-bg-primary-dark pb-5">
-            <div class="jumbotron text-center sj-bg-primary">
-                <h1 class="text-capitalize">Connect With Us</h1>
-                <p class="text-break">Share your decorating tips, find renovation inspiration and earn rewards by
-                    connecting with us!</p>
-                <h1>
-                    <a href="#"><i class="fab fa-facebook-square text-light"></i></a>
-                    <a href="#"><i class="fab fa-instagram text-light"></i></a>
-                    <a href="#"><i class="fab fa-twitter text-light"></i></a>
-                </h1>
-            </div>
-            <!--  -->
-            <div class="text-center">
-                <h3 class="sj-text-secondary-dark">Contact Us</h3>
-                <span>Address: 1 Lý Tự Trọng, An Lạc, Ninh Kiều, Cần Thơ</span><br>
-                <span>email: LaImperial@gmail.com</span><br>
-                <span>Call us: 7303317459</span>
             </div>
         </footer>
     </main>
