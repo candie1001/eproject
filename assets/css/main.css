@@ -770,8 +770,8 @@ iframe {
 }
 
 .true-validate::after {
-  content: "\f26b";
-  font-family: Material-Design-Iconic-Font;
+  content: "\f00c";
+  font-family: FontAwesome;
   font-size: 22px;
   color: #00ad5f;
   display: -webkit-box;

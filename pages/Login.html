@@ -20,29 +20,32 @@
 <body>
 	<header>
 		<!-- topbar -->
-		<div class="wrapper row0">
-			<div id="topbar" class="hoc clear">
-				<!--  -->
-				<div class="fl_left">
-					<ul>
-						<li><i class="fa fa-phone"></i> +00 (123) 456 7890</li>
-						<li><i class="fa fa-envelope-o"></i> info@domain.com</li>
-					</ul>
+		<div class="container-fluid sj-bg-primary-dark text-light">
+			<div class="row px-3 px-sm-0">
+				<div id="topbar" class="container clearfix">
+					<div class="float-left d-none d-sm-block">
+						<ul>
+							<li><i class="fa fa-phone sj-text-secondary icon-x1"></i> +00 (123) 456 7890</li>
+							<li><i class="fa fa-envelope sj-text-secondary icon-x1"></i> LaImperial@gmail.com</li>
+						</ul>
+					</div>
+					<div class="float-right">
+						<ul>
+							<li><a class="text-light" href="./pages/Login.html">Login</a></li>
+							<li><a class="text-light" href="./pages/Sign_Up.html">Register</a></li>
+							<li><a class="text-light" href="./pages/cart.html"><i
+										class="fa fa-cart-arrow-down sj-text-secondary icon-x1"></i>View
+									Cart</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<div class="fl_right">
-					<ul>
-						<li><a href="#">Login</a></li>
-						<li><a href="#">Register</a></li>
-						<li><a href="#"><i class="fas fa-cart-arrow-down"></i>View Cart</a></li>
-					</ul>
-				</div>
-				<!--  -->
 			</div>
 		</div>
-		<!-- main navBar -->
+		<!-- navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="#"> <img src="../assets/img/logo2.png" alt=""> </a>
+				<a class="navbar-brand" href="index.html"> <img src="assets/img/logo2.png" alt=""> </a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 					aria-label="Toggle navigation">
@@ -51,49 +54,42 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact Us</a>
-						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Category
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Fridges</a>
-								<a class="dropdown-item" href="#">Freezers</a>
-								<a class="dropdown-item" href="#">Health</a>
-								<a class="dropdown-item" href="#">Beauty</a>
-								<a class="dropdown-item" href="#">Heating </a>
-								<a class="dropdown-item" href="#">Cooling</a>
-								<a class="dropdown-item" href="#">Laundry Appliances</a>
-								<a class="dropdown-item" href="#">Small Appliances</a>
-								<a class="dropdown-item" href="#">TV</a>
-								<a class="dropdown-item" href="#">Audio</a>
-								<a class="dropdown-item" href="#">Electronics</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Something else here</a>
+								<a class="dropdown-item" href="pages/products-page.html">Fridges</a>
+								<a class="dropdown-item" href="pages/products-page.html">Freezers</a>
+								<a class="dropdown-item" href="pages/products-page.html">Health</a>
+								<a class="dropdown-item" href="pages/products-page.html">Beauty</a>
+								<a class="dropdown-item" href="pages/products-page.html">Heating </a>
+								<a class="dropdown-item" href="pages/products-page.html">Cooling</a>
+								<a class="dropdown-item" href="pages/products-page.html">Laundry Appliances</a>
+								<a class="dropdown-item" href="pages/products-page.html">Small Appliances</a>
+								<a class="dropdown-item" href="pages/products-page.html">TV</a>
+								<a class="dropdown-item" href="pages/products-page.html">Audio</a>
+								<a class="dropdown-item" href="pages/products-page.html">Electronics</a>
 							</div>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Brands
+								Trademarks
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">Amana</a>
-								<a class="dropdown-item" href="#">Jenn air</a>
-								<a class="dropdown-item" href="#">LG</a>
-								<a class="dropdown-item" href="#">Samsung</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Something else here</a>
+								<a class="dropdown-item" href="pages/products-page.html">Amana</a>
+								<a class="dropdown-item" href="pages/products-page.html">Jenn air</a>
+								<a class="dropdown-item" href="pages/products-page.html">LG</a>
+								<a class="dropdown-item" href="pages/products-page.html">Samsung</a>
 							</div>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+							<a class="nav-link" href="pages/contact.html">Contact Us</a>
 						</li>
 					</ul>
-					<form class="form-inline my-2 my-lg-0">
+					<form class="form-inline my-2 my-lg-0 ml-md-4">
 						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
 						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 					</form>
@@ -102,7 +98,7 @@
 		</nav>
 	</header>
 	<div class="limiter">
-		<div class="container-login101" style="background-image: url('../assets/img/bg-02.jpg');">
+		<div class="container-login101 sj-bg-primary-dark">
 			<div class="wrap-login101 p-l-55 p-r-55 p-t-65 p-b-54">
 				<form class="login101-form validate-form">
 					<span class="login101-form-title p-b-49">
@@ -111,7 +107,7 @@
 
 					<div class="wrap-input101 validate-input m-b-23" data-validate="Username is reauired">
 						<span class="label-input101">Username</span>
-						<input class="input101" type="text" name="username" placeholder="Type your username">						
+						<input class="input101" type="text" name="username" placeholder="Type your username">
 					</div>
 
 					<div class="wrap-input101 validate-input" data-validate="Password is required">
@@ -167,7 +163,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div id="dropDownSelect1"></div>
 
 	<!--===============================================================================================-->
