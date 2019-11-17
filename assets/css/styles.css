@@ -171,32 +171,30 @@ a:hover {
   text-decoration: none;
 }
 
-.products-m {
-  margin: 20px 0 10px 0;
-}
-
 .img-product {
   position: relative;
 }
 
-.brand-r {
-  margin: 20px 0 20px 0;
-}
-
-.brand-m {
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-
-
-.Social-Network-icon {
-  color: #fff;
-}
 /* =================================== */
 /* footer */
-.footer-icons a{
+.footer-icon {
+  padding-left: 2.5rem;
+  position: relative;
+
+}
+.footer-icon::before {
+  content: attr(footer-icon);
+  font-family: "FontAwesome";
+  font-size: 1.5rem;
+  left:0;
+  top: -0.5rem;
+  color: rgb(116, 226, 88);
+  text-align: center;
+  width: 2.5rem;
+  position: absolute;
+}
+.footer-icon1{
   font-size: 2rem;
-  padding: 5px;
 }
 
 /* product-page */
