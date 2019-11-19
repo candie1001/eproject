@@ -114,3 +114,12 @@
   });
 
 })(jQuery);
+// ================================
+// hide and show
+$('#btn-compare').click(function() {
+    $('#compare-board').css("display", "block");
+});
+
+$('#hide').click(function() {
+    $('#compare-board').hide();
+});

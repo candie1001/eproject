@@ -302,7 +302,21 @@ div.card-body ul li{
     display: none;
   }
 }
-
+.compare-board{
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  display: none;
+}
+div.compare-board div.container div.row div i::before {
+  content: "\f078";
+  font-family: "FontAwesome";
+  font-size: 1.5rem;
+  padding-right: 10px;
+  text-align: center;
+  width: 2.5rem;
+  position: initial;
+}
 /* ------------------------------------------------------- */
 /* product detail */
 /* ------------------------------------------------------- */
