@@ -302,7 +302,8 @@ div.card-body ul li{
     display: none;
   }
 }
-.compare-board{
+
+#compare-board{
   position: fixed;
   z-index: 1;
   bottom: 0;
