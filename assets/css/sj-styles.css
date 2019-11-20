@@ -71,7 +71,11 @@ h4 {
 .sj-bg-secondary-light {
   background-color: var(--secondary-color-light) !important;
 }
-
+@media screen and (max-width: 450px){
+  .sj-bg-secondary-light {
+    background-color: #fff;
+  }
+}
 .sj-bg-secondary-dark {
   background-color: var(--secondary-color-dark) !important;
 }

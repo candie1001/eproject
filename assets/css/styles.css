@@ -182,18 +182,20 @@ a:hover {
   position: relative;
 
 }
+
 .footer-icon::before {
   content: attr(footer-icon);
   font-family: "FontAwesome";
   font-size: 1.5rem;
-  left:0;
+  left: 0;
   top: -0.5rem;
   color: rgb(116, 226, 88);
   text-align: center;
   width: 2.5rem;
   position: absolute;
 }
-.footer-icon1{
+
+.footer-icon1 {
   font-size: 2rem;
 }
 
@@ -247,10 +249,12 @@ a:hover {
   color: #fff;
   font-weight: bold;
 }
-div.card-body ul li{
+
+div.card-body ul li {
   list-style: none;
 }
-.item1{
+
+.item1 {
   display: block;
   width: 100%;
   padding: 0.25rem 1.5rem;
@@ -262,14 +266,16 @@ div.card-body ul li{
   border: 0;
   margin-bottom: 0;
 }
-.item1 a{
+
+.item1 a {
   color: #000;
 }
 
-.item1:hover{
+.item1:hover {
   text-decoration: none;
   background-color: #6fd4c7;
 }
+
 .btn-buy {
   background-color: rgb(52, 84, 226);
   width: 80%;
@@ -287,13 +293,22 @@ div.card-body ul li{
   font-weight: 50px;
 }
 
-.Category-row a {}
+
 
 @media screen and (max-width: 450px) {
 
   .detail,
   .img-product:hover .overlay {
     display: none;
+  }
+
+  .moblie-none {
+    display: none;
+  }
+
+  .moblie-width {
+    color: var(--primary-color) !important;
+    background-color: var(--secondary-color-light) !important;
   }
 }
 
@@ -303,12 +318,13 @@ div.card-body ul li{
   }
 }
 
-#compare-board{
+#compare-board {
   position: fixed;
   z-index: 1;
   bottom: 0;
   display: none;
 }
+
 div.compare-board div.container div.row div i::before {
   content: "\f078";
   font-family: "FontAwesome";
@@ -318,6 +334,7 @@ div.compare-board div.container div.row div i::before {
   width: 2.5rem;
   position: initial;
 }
+
 /* ------------------------------------------------------- */
 /* product detail */
 /* ------------------------------------------------------- */
