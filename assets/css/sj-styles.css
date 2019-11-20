@@ -17,9 +17,11 @@ body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
 h1,
 h2,
-h3 {
+h3,
+h4 {
   color: var(--secondary-color-dark);
   font-weight: bold;
   font-family: "Playfair Display", "Courier New", Courier, monospace;
@@ -29,36 +31,47 @@ h3 {
 .sj-text-primary {
   color: var(--primary-color) !important;
 }
+
 .sj-text-primary-light {
   color: var(--primary-color-light) !important;
 }
+
 .sj-text-primary-dark {
   color: var(--primary-color-dark) !important;
 }
+
 .sj-text-secondary {
   color: var(--secondary-color) !important;
 }
+
 .sj-text-secondary-light {
   color: var(--secondary-color-light) !important;
 }
+
 .sj-text-secondary-dark {
   color: var(--secondary-color-dark) !important;
 }
+
 .sj-bg-primary {
   background-color: var(--primary-color) !important;
 }
+
 .sj-bg-primary-light {
   background-color: var(--primary-color-light) !important;
 }
+
 .sj-bg-primary-dark {
   background-color: var(--primary-color-dark) !important;
 }
+
 .sj-bg-secondary {
   background-color: var(--secondary-color) !important;
 }
+
 .sj-bg-secondary-light {
   background-color: var(--secondary-color-light) !important;
 }
+
 .sj-bg-secondary-dark {
   background-color: var(--secondary-color-dark) !important;
 }
