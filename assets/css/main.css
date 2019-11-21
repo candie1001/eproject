@@ -40,19 +40,19 @@ a:hover {
 
 
 /*---------------------------------------------*/
-input {
+.input-type {
 	outline: none;
 	border: none;
 }
 
-input[type="number"] {
+.input-type[type="number"] {
     -moz-appearance: textfield;
     appearance: none;
     -webkit-appearance: none;
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
+.input-type[type="number"]::-webkit-outer-spin-button,
+.input-type[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
 
@@ -65,20 +65,20 @@ textarea:focus, input:focus {
   border-color: transparent !important;
 }
 
-input:focus::-webkit-input-placeholder { color:transparent; }
-input:focus:-moz-placeholder { color:transparent; }
-input:focus::-moz-placeholder { color:transparent; }
-input:focus:-ms-input-placeholder { color:transparent; }
+.input-type:focus::-webkit-input-placeholder { color:transparent; }
+.input-type:focus:-moz-placeholder { color:transparent; }
+.input-type:focus::-moz-placeholder { color:transparent; }
+.input-type:focus:-ms-input-placeholder { color:transparent; }
 
 textarea:focus::-webkit-input-placeholder { color:transparent; }
 textarea:focus:-moz-placeholder { color:transparent; }
 textarea:focus::-moz-placeholder { color:transparent; }
 textarea:focus:-ms-input-placeholder { color:transparent; }
 
-input::-webkit-input-placeholder {color: #cccccc;}
-input:-moz-placeholder {color: #cccccc;}
-input::-moz-placeholder {color: #cccccc;}
-input:-ms-input-placeholder {color: #cccccc;}
+.input-type::-webkit-input-placeholder {color: #cccccc;}
+.input-type:-moz-placeholder {color: #cccccc;}
+.input-type::-moz-placeholder {color: #cccccc;}
+.input-type:-ms-input-placeholder {color: #cccccc;}
 
 textarea::-webkit-input-placeholder {color: #cccccc;}
 textarea:-moz-placeholder {color: #cccccc;}
