@@ -66,6 +66,18 @@
             }
         }
     }
+    function validate (input) {
+        if($(input).attr('type') == 'email' || $(input).attr('name') == 'phone') {
+            if($(input).val().trim().match(/^0[0-9]{9}$/) == null) {
+                return false;
+            }
+        }
+        else {
+            if($(input).val().trim() == ''){
+                return false;
+            }
+        }
+    }
 
     function showValidate(input) {
         var thisAlert = $(input).parent();

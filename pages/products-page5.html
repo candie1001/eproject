@@ -23,14 +23,16 @@
                     <div class="float-left d-none d-sm-block">
                         <ul>
                             <li><i class="fa fa-phone sj-text-secondary icon-x1"></i> +00 (123) 456 7890</li>
-                            <li><i class="fa fa-envelope sj-text-secondary icon-x1"></i> info@domain.com</li>
+                            <li><a class="text-light" href="mailto:someone@example.com?Subject=Hello%20again"><i
+                                        class="fa fa-envelope sj-text-secondary icon-x1"></i>LaImperial@gmail.com</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="float-right">
                         <ul>
-                            <li><a class="text-light" href="./pages/Login.html">Login</a></li>
-                            <li><a class="text-light" href="./pages/Sign_Up.html">Register</a></li>
-                            <li><a class="text-light" href="./pages/cart.html"><i
+                            <li><a class="text-light" href="../pages/Login.html">Login</a></li>
+                            <li><a class="text-light" href="../pages/Sign_Up.html">Register</a></li>
+                            <li><a class="text-light" href="../pages/cart.html"><i
                                         class="fa fa-cart-arrow-down sj-text-secondary icon-x1"></i>View
                                     Cart</a>
                             </li>
@@ -39,9 +41,10 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow rounded">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
             <div class="container">
-                <a class="navbar-brand" href="index.html"> <img src="../assets/img/logo2.png" alt=""> </a>
+                <a class="navbar-brand" href="../index.html"> <img src="../assets/img/logo2.png" alt=""> </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -56,17 +59,17 @@
                                 Category
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="pages/products-page.html">Fridges</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Freezers</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Health</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Beauty</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Heating </a>
-                                <a class="dropdown-item" href="pages/products-page.html">Cooling</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Laundry Appliances</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Small Appliances</a>
-                                <a class="dropdown-item" href="pages/products-page.html">TV</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Audio</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Electronics</a>
+                                <a class="dropdown-item" href="../pages/products-page-Fridges.html">Fridges</a>
+                                <a class="dropdown-item" href="../pages/products-page-Freezers.html">Freezers</a>
+                                <a class="dropdown-item" href="../pages/products-page-Health.html">Health</a>
+                                <a class="dropdown-item" href="../pages/products-page-Beauty.html">Beauty</a>
+                                <a class="dropdown-item" href="../pages/products-page-Heating.html">Heating </a>
+                                <a class="dropdown-item" href="../pages/products-page-Cooling.html">Cooling</a>
+                                <a class="dropdown-item" href="../pages/products-page3.html">Laundry Appliances</a>
+                                <a class="dropdown-item" href="../pages/products-page4.html">Small Appliances</a>
+                                <a class="dropdown-item" href="../pages/products-page-tv.html">TV</a>
+                                <a class="dropdown-item" href="../pages/products-page-Audio.html">Audio</a>
+                                <a class="dropdown-item" href="../pages/products-page-Electronics.html">Electronics</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -75,14 +78,14 @@
                                 Trademarks
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="pages/products-page.html">Amana</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Jenn air</a>
-                                <a class="dropdown-item" href="pages/products-page.html">LG</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Samsung</a>
+                                <a class="dropdown-item" href="../pages/products-page-amana.html">Amana</a>
+                                <a class="dropdown-item" href="../pages/products-page-jenn-air.html">Jenn air</a>
+                                <a class="dropdown-item" href="../pages/products-page-LG.html">LG</a>
+                                <a class="dropdown-item" href="../pages/products-page-samsung.html">Samsung</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="pages/contact.html">Contact Us</a>
+                            <a class="nav-link" href="../pages/contact.html">Contact Us</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0 ml-md-4">
@@ -92,6 +95,7 @@
                 </div>
             </div>
         </nav>
+
     </header>
 
     <!--  -->
@@ -809,12 +813,12 @@
         </div>
 
         <!--  -->
-        <footer class="sj-bg-primary-dark">
+        <footer class="sj-bg-primary">
             <div class="container">
                 <div class="row">
                     <!-- footer menu -->
                     <div class="col-12 col-md-2 my-5">
-                        <a href="" class="text-light ">Home</a>
+                        <a href="index.html" class="text-light ">Home</a>
                         <hr class="border-bottom border-success">
                         <!-- ================== -->
                         <div class="dropup">
@@ -823,17 +827,17 @@
                                 Category
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Fridges</a>
-                                <a class="dropdown-item" href="#">Freezers</a>
-                                <a class="dropdown-item" href="#">Health</a>
-                                <a class="dropdown-item" href="#">Beauty</a>
-                                <a class="dropdown-item" href="#">Heating </a>
-                                <a class="dropdown-item" href="#">Cooling</a>
-                                <a class="dropdown-item" href="#">Laundry Appliances</a>
-                                <a class="dropdown-item" href="#">Small Appliances</a>
-                                <a class="dropdown-item" href="#">TV</a>
-                                <a class="dropdown-item" href="#">Audio</a>
-                                <a class="dropdown-item" href="#">Electronics</a>
+                                <a class="dropdown-item" href="../pages/products-page-Fridges.html">Fridges</a>
+                                <a class="dropdown-item" href="../pages/products-page-Freezers.html">Freezers</a>
+                                <a class="dropdown-item" href="../pages/products-page-Health.html">Health</a>
+                                <a class="dropdown-item" href="../pages/products-page-Beauty.html">Beauty</a>
+                                <a class="dropdown-item" href="../pages/products-page-Heating.html">Heating </a>
+                                <a class="dropdown-item" href="../pages/products-page-Cooling.html">Cooling</a>
+                                <a class="dropdown-item" href="../pages/products-page3.html">Laundry Appliances</a>
+                                <a class="dropdown-item" href="../pages/products-page4.html">Small Appliances</a>
+                                <a class="dropdown-item" href="../pages/products-page-tv.html">TV</a>
+                                <a class="dropdown-item" href="../pages/products-page-Audio.html">Audio</a>
+                                <a class="dropdown-item" href="../pages/products-page-Electronics.html">Electronics</a>
                             </div>
                         </div>
                         <hr class="border-bottom border-success">
@@ -844,10 +848,10 @@
                                 Trademarks
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="pages/products-page.html">Amana</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Jenn air</a>
-                                <a class="dropdown-item" href="pages/products-page.html">LG</a>
-                                <a class="dropdown-item" href="pages/products-page.html">Samsung</a>
+                                <a class="dropdown-item" href="../pages/products-page-amana.html">Amana</a>
+                                <a class="dropdown-item" href="../pages/products-page-jenn-air.html">Jenn air</a>
+                                <a class="dropdown-item" href="../pages/products-page-LG.html">LG</a>
+                                <a class="dropdown-item" href="../pages/products-page-samsung.html">Samsung</a>
                             </div>
                         </div>
 
@@ -862,15 +866,16 @@
                                 Trọng, P.An Lạc, Q.Ninh Kiều, TP.Cần Thơ</a>
                         </div>
                         <div class="text-light footer-icon my-3" footer-icon="&#xf0e0"><a class="text-light"
-                                href="">LaImperial@gmail.com</a>
+                                href="mailto:someone@example.com?Subject=Hello%20again">LaImperial@gmail.com</a>
                         </div>
                         <div class="text-light footer-icon" footer-icon="&#xf095"><a class="text-light" href="">+00
                                 (123)
                                 456 7890</a></div>
-                        <p class="text-center footer-icon1"><a class="text-light" href="#"><i
+                        <p class="text-center footer-icon1"><a class="text-light" href="https://www.facebook.com"><i
                                     class="fa fa-facebook-square text-light"></i></a>
-                            <a class="text-light" href="#"><i class="fa fa-twitter text-light"></i></a>
-                            <a class="text-light" href="#"><i class="fa fa-google"></i></a>
+                            <a class="text-light" href="https://www.twitter.com"><i
+                                    class="fa fa-twitter text-light"></i></a>
+                            <a class="text-light" href="https://www.google.com/gmail"><i class="fa fa-google"></i></a>
                         </p>
                     </div>
                     <div class="col-12 col-md-5">
@@ -884,7 +889,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 text-light text-center bg-dark py-2">
+                <div class="col-12 text-light text-center sj-bg-primary-dark py-2">
                     <i class="fa fa-copyright" aria-hidden="true"></i> La Imperial
                 </div>
             </div>
