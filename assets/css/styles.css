@@ -321,6 +321,15 @@ div.card-body ul li {
     color: var(--primary-color) !important;
     background-color: var(--secondary-color-light) !important;
   }
+  .btn-trash{
+    display: block;
+    width: 100%;
+  }
+  .img-thumbnail{
+    width: 30px;
+    height: 30px;
+  
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -358,12 +367,10 @@ div.compare-board div.container div.row div i::before {
 
 /* ----------------------------------------------------- */
 /* cart */
-.responsive {
-  width: 100%;
-  height: auto;
+.img-thumbnail{
+  width: 160px;
+  height: 70px;
 }
-
-
 /* contact us */
 /* map */
 .map-container-2 {
