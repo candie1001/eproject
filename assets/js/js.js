@@ -87,7 +87,6 @@
       })    
   })
 
-
   /*==================================================================
   [ Validate after type ]*/
   $('.validate-input .input100').each(function(){
